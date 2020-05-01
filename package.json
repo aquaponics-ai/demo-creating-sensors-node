@@ -1,0 +1,22 @@
+{
+  "name": "aquaponics-ai-demo-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aquaponics-ai/demo-creating-sensors-node.git"
+  },
+  "author": "Jonathan Reyes <jon@aquaponics.ai>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aquaponics-ai/demo-creating-sensors-node/issues"
+  },
+  "homepage": "https://github.com/aquaponics-ai/demo-creating-sensors-node#readme",
+  "dependencies": {
+    "aws-iot-device-sdk": "^2.2.4"
+  }
+}
