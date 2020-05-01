@@ -11,6 +11,8 @@ const client = awsIot.device({
 client.on('connect', () => console.log('Successfully connected to Aquaponics AI'))
 
 // You can retrieve this topic from your dashboard under the selected sensor
+// This topic relates to a specific notebook. You can record metrics to separate
+// notebooks to keep everything organized.
 const topic = 'logs/at-i/5a3a1cae-8715-41a7-9ffe-9f2d04ba65d0/cd3d9bb0-a4a7-4236-92aa-257f871dc72a'
 
 client.publish(topic, JSON.stringify({
