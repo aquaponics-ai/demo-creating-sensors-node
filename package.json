@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/aquaponics-ai/demo-creating-sensors-node#readme",
   "dependencies": {
-    "aws-iot-device-sdk": "^2.2.4"
+    "aws-iot-device-sdk": "^2.2.12"
   }
 }
